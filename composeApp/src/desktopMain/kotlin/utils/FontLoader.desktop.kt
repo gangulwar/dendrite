@@ -10,16 +10,16 @@ actual class FontLoader actual constructor() {
             Font("font/inter_bold.ttf", FontWeight.Bold),
             Font("font/inter_medium.ttf", FontWeight.Medium),
             Font("font/inter_regular.ttf", FontWeight.Normal),
-            Font("font/inter_semibold", FontWeight.SemiBold),
-            Font("font/inter_light", FontWeight.Light),
-            Font("font/inter_extralight", FontWeight.ExtraLight)
+            Font("font/inter_semibold.ttf", FontWeight.SemiBold),
+            Font("font/inter_light.ttf", FontWeight.Light),
+            Font("font/inter_extralight.ttf", FontWeight.ExtraLight)
         )
     }
 
     actual fun loadEloquiaFontFamily(): FontFamily {
         return FontFamily(
-            Font("font/eloquia_extra_bold", FontWeight.ExtraBold),
-            Font("font/eloquia_extra_light", FontWeight.Light)
+            Font("font/eloquia_extra_bold.otf", FontWeight.ExtraBold),
+            Font("font/eloquia_extra_light.otf", FontWeight.Light)
         )
     }
 }
